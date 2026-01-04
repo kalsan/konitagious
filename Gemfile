@@ -65,3 +65,5 @@ end
 gem "bootstrap", "~> 5.3"
 
 gem "dartsass-rails", "~> 0.5.1"
+
+gem "compony", "~> 0.11.3"
