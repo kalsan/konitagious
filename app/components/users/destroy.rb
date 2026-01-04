@@ -1,2 +1,2 @@
-class Components::Users::Destroy < Compony::Components::Destroy
+class Components::Users::Destroy < BaseComponents::Destroy
 end
