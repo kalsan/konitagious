@@ -73,3 +73,5 @@ gem "compony", "~> 0.11.3"
 gem "anchormodel", "~> 0.2.6"
 
 gem "herb", "~> 0.8.6"
+
+gem "ransack", "~> 4.4"
