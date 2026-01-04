@@ -1,0 +1,1 @@
+Compony.authentication_before_action = :enforce_authentication

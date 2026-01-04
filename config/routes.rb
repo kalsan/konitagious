@@ -11,4 +11,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   root "compony#homepage_public_pages"
+
+  # Devise
+  devise_for :users
 end

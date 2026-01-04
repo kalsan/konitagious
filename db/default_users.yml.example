@@ -1,0 +1,5 @@
+some@email.com:
+  first_name: John
+  last_name: Doe
+  password: password
+  password_confirmation: password
