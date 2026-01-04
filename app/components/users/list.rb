@@ -1,4 +1,4 @@
-class Components::Users::List < Compony::Components::List
+class Components::Users::List < BaseComponents::List
   setup do
     columns :first_name, :last_name, :email
     filter :label
