@@ -156,6 +156,14 @@ GEM
     google-protobuf (4.33.2-x86_64-linux-musl)
       bigdecimal
       rake (>= 13)
+    herb (0.8.6-aarch64-linux-gnu)
+    herb (0.8.6-aarch64-linux-musl)
+    herb (0.8.6-arm-linux-gnu)
+    herb (0.8.6-arm-linux-musl)
+    herb (0.8.6-arm64-darwin)
+    herb (0.8.6-x86_64-darwin)
+    herb (0.8.6-x86_64-linux-gnu)
+    herb (0.8.6-x86_64-linux-musl)
     i18n (1.14.8)
       concurrent-ruby (~> 1.0)
     importmap-rails (2.2.2)
@@ -450,6 +458,7 @@ DEPENDENCIES
   compony (~> 0.11.3)
   dartsass-rails (~> 0.5.1)
   debug
+  herb (~> 0.8.6)
   importmap-rails
   jbuilder
   kamal

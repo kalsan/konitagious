@@ -69,3 +69,5 @@ gem "dartsass-rails", "~> 0.5.1"
 gem "compony", "~> 0.11.3"
 
 gem "anchormodel", "~> 0.2.6"
+
+gem "herb", "~> 0.8.6"
