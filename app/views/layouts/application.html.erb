@@ -27,7 +27,15 @@
 
   <body>
     <main>
-      <div class="container"><%= yield %></div>
+      <div class="container">
+        <div class="root-intents">
+          <% Compony.root_comp&.exposed_intents.each do |intent| %>
+            <%= intent.render(controller) %>
+          <% end %>
+        </div>
+
+        <%= yield %>
+      </div>
     </main>
   </body>
 </html>
