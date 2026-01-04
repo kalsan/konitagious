@@ -5,3 +5,6 @@ Rails.application.config.assets.version = "1.0"
 
 # Add additional assets to the asset load path.
 # Rails.application.config.assets.paths << Emoji.images_path
+
+# https://github.com/twbs/bootstrap-rubygem README states to add:
+Rails.application.config.assets.precompile += %w[bootstrap.min.js popper.js]

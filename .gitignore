@@ -7,6 +7,12 @@
 # Ignore bundler config.
 /.bundle
 
+# Bundler
+/vendor/bundle
+/vendor/cache
+/app/assets/builds/*
+!/app/assets/builds/.keep
+
 # Ignore all environment files.
 /.env*
 
@@ -32,3 +38,6 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+/app/assets/builds/*
+!/app/assets/builds/.keep
