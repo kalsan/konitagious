@@ -1,2 +1,2 @@
-class Components::Users::Index < Compony::Components::Index
+class Components::Users::Index < BaseComponents::Index
 end
