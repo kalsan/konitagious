@@ -54,7 +54,7 @@
 
             <li class="ms-auto nav-item">
               <div class="d-flex gap-2">
-                <% Compony.root_comp&.exposed_intents.each do |intent| %>
+                <% Compony.root_comp&.exposed_intents&.each do |intent| %>
                   <%= intent.render(controller) %>
                 <% end %>
               </div>
