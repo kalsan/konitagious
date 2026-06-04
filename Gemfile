@@ -68,9 +68,9 @@ gem "bootstrap", "~> 5.3"
 
 gem "dartsass-rails", "~> 0.5.1"
 
-gem "compony", "~> 0.11.3"
+gem "compony", "~> 0.11.10"
 
-gem "anchormodel", "~> 0.2.6"
+gem "anchormodel", "~> 0.4.0"
 
 gem "herb", "~> 0.8.6"
 
