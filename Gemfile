@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 8.0.2"
+gem "rails", "~> 8.1.0"
 # The modern asset pipeline for Rails [https://github.com/rails/propshaft]
 gem "propshaft"
 # Use postgres as the database for Active Record
@@ -72,7 +72,7 @@ gem "compony", "~> 0.11.10"
 
 gem "anchormodel", "~> 0.4.0"
 
-gem "herb", "~> 0.8.6"
+gem "herb", "~> 0.10"
 
 gem "ransack", "~> 4.4"
 
