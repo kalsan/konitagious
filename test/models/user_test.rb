@@ -1,7 +1,8 @@
 require "test_helper"
 
 class UserTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+  test "downcases and strips email" do
+    user = User.new(email: " DOWNCASED@EXAMPLE.COM ")
+    assert_equal("downcased@example.com", user.email)
+  end
 end
